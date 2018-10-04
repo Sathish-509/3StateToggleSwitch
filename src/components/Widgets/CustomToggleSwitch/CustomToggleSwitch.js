@@ -50,6 +50,7 @@ class CustomToggleSwitch extends React.Component {
 
     /* istanbul ignore next */
     render() {
+        debugger;
         let outerToggleCheck = this.props.value === true || this.props.value === false ? true : false;
         return(
             <div>

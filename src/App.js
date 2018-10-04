@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CustomFormGenerator from './components/CustomFormGenerator';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
@@ -10,9 +10,9 @@ class App extends Component {
           <h2>3-State Toggle Switch</h2>
         </header>
         <div className="center">
-          <CustomFormGenerator/>          
+          <CustomFormGenerator/>  
         </div>
-      </div>
+        </div>
     );
   }
 }

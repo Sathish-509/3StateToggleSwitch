@@ -8,6 +8,7 @@ class ToggleSwitch extends React.Component {
         if(this.props.isDisabled) {
             threeColorDisableClassName= 'threeColorDisableClassName';
         }
+        debugger;
         return (
             <div className="switch-container">
                 <label>
